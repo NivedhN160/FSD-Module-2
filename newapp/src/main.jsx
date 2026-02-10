@@ -5,12 +5,13 @@ import App from './App.jsx'
 import Variable from './Variable.jsx'
 import Usestateexample from './Usestateexample.jsx'
 import Propexample from './Propexample.jsx'
-
+import Inputexample from './Inputexample.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Variable />
     <Usestateexample />
     <Propexample />
+    <Inputexample />
   </StrictMode>,
 )
