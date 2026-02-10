@@ -1,10 +1,11 @@
-import React, { use } from 'react'
+import React from 'react'
 import { useState } from 'react'
+
 export default function App() {
-  const [userName] = useState{"Vijay"}
+  const [userName, setUsername]=useState("Nanba")
   return (
     <div>
-      <h1>Happy New year {userName} </h1>
+      <h1>Happy Deepawali {userName}!</h1>
     </div>
   )
-}
+} 
