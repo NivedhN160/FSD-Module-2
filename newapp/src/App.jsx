@@ -8,4 +8,4 @@ export default function App() {
       <h1>Happy Deepawali {userName}!</h1>
     </div>
   )
-} 
+}

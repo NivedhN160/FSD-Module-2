@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 export default function Usestateexample() {
-const [userName , setUsername] = useState("radhika")
+const [userName , setUsername] = useState("")
   return (
     <div>
     <input type="text" value = {userName} 

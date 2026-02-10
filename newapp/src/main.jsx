@@ -8,6 +8,9 @@ import Propexample from './Propexample.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <App />
+    <Variable />
+    <Usestateexample />
     <Propexample />
   </StrictMode>,
 )
