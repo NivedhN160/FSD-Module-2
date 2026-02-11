@@ -6,12 +6,9 @@ import Variable from './Variable.jsx'
 import Usestateexample from './Usestateexample.jsx'
 import Propexample from './Propexample.jsx'
 import Inputexample from './Inputexample.jsx'
+import Useeffect1 from './Useeffect1.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    <Variable />
-    <Usestateexample />
-    <Propexample />
-    <Inputexample />
+    <Useeffect1 />
   </StrictMode>,
 )
